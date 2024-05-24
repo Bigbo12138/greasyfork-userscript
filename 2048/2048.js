@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         2048帖子高亮图片预览
 // @description  帖子高亮，列表页面直接预览帖子内图片
-// @version      0.0.15
+// @version      0.0.16
 // @author       bluebabes
 // @namespace    hjd2048.com
 // @match        https://*/*
@@ -22,7 +22,7 @@
 (function () {
   "use strict";
   
-  if (document.title.indexOf('人人 人人') ===-1){
+  if (document.title.indexOf('我为人人社区') ===-1){
       return
   }
   
@@ -159,7 +159,23 @@
     "威尼斯人",
     "同城兼职少妇",
     "华人高端",
-    "区发贴教程详解",
+    "开元棋牌",
+    "王者棋牌",
+    "9 1原创",
+    "银河赌场",
+    "同城炮友",
+    "全国楼凤",
+    "上门约炮",
+    "性息下载",
+    "必赢棋牌",
+    "皇冠赌场",
+    "如意裸播",
+    "提款无忧",
+    "乱伦视频",
+    "即刻上门",
+    "凤凰娱乐",
+    "鸿博体育",
+    "亚博赌场",
   ];
   function isBlackTitle(title) {
     if (!title) {
