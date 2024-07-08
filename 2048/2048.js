@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         2048帖子高亮图片预览
 // @description  帖子高亮，列表页面直接预览帖子内图片
-// @version      0.0.16
+// @version      0.0.17
 // @author       bluebabes
 // @namespace    hjd2048.com
 // @match        https://*/*
@@ -22,7 +22,7 @@
 (function () {
   "use strict";
   
-  if (document.title.indexOf('我为人人社区') ===-1){
+  if (document.title.indexOf('人人') ===-1){
       return
   }
   
