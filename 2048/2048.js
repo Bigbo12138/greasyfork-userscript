@@ -30,7 +30,7 @@
 
   // debug
   var debug = true;
-  var maxImgCount = 8; // 最多显示图片数量
+  var maxImgCount = 92; // 最多显示图片数量
 
   // 增加菜单
   var menu_ALL = [["menu_disable", "✅ 已启用", "❌ 已禁用", []]];
